@@ -1,0 +1,7 @@
+{
+  "name": "guard-sass-lint",
+  "private": true,
+  "dependencies": {
+    "sass-lint": "^1.10.2"
+  }
+}

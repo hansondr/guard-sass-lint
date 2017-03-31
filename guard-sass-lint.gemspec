@@ -20,7 +20,6 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
-  spec.extensions << 'test.rb'
 
   spec.add_dependency 'guard-compat', '~> 1.2'
   spec.add_dependency 'colorize', '~> 0.8'
@@ -29,6 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
 
-  spec.requirements << 'yarnpkg'
   spec.requirements << 'nodejs'
 end
